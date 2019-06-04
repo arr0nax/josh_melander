@@ -7,10 +7,25 @@ html, body {
 body {
   margin: 0;
   display: flex;
-
-  /* This centers our sketch horizontally. */
+  font-family: 'Roboto', sans-serif;
   justify-content: center;
-
-  /* This centers our sketch vertically. */
   align-items: center;
+}
+
+.section {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 180px;
+  padding-top: 220px;
+
+
 }
